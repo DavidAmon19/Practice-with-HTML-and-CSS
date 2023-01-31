@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #252525;
+}
+
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.header-container {
+  background-image: url("./assets/Header3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  color: #a34234;
+  margin-left: 40px;
+}
+
+.container1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegation a {
+  text-decoration: none;
+  text-align: justify;
+  padding: 10px;
+  color: #a34234;
+  font-weight: bolder;
+}
+
+.navegation a:hover {
+  text-decoration: none;
+  color: #d2a27d;
+  transition: all 200ms linear;
+}
+
+.navegation a img {
+  width: 16px;
+  border: 1px solid #252525;
+  border-radius: 50px;
+}
+
+.intro {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #a34234;
+
+  margin-left: 350px;
+}
+
+.intro h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.intro-nav a {
+  padding: 4px;
+  text-decoration: none;
+  color: #8a807f;
+}
+
+.contact-us-form {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-us-form h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.contactus {
+  height: 500px;
+  background: #bb4339;
+  padding: 50px;
+}
+
+.contactus .contatos {
+  display: block;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+
+.contactus h2 {
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contactus a {
+  text-align: left;
+  text-decoration: none;
+  padding-left: 2px;
+}
+.contactus nav a {
+  display: inline;
+}
+
+.section-us {
+  padding: 0;
+  display: flex;
+}
+
+.contactus {
+  width: 50%;
+  height: 520px;
+}
+.input-contact {
+  width: 50%;
+  margin-left: 70px;
+}
+
+.input-contact p {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-names {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  width: 49%;
+}
+
+.input-email {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  width: 49%;
+  margin-left: 1%;
+}
+
+.email-Subject {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.input-contact textarea {
+  height: 300px;
+  width: 100%;
+}
+
+.button-type {
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  background: #bb4339;
+  border: #bb4339;
+  border-radius: 50px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.mapa {
+  margin-top: 100px;
+}
+
+footer {
+  background: #252525;
+  color: aliceblue;
+  padding-top: 70px;
+}
+
+.element-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.element-footer div {
+  width: 500px;
+  padding-left: 100px;
+}
+
+.element-footer a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.element-logo h1,
+p {
+  padding-bottom: 20px;
+}
+
+.element-address h2 {
+  padding-bottom: 20px;
+}
+
+.element-address a {
+  display: block;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+.element-quick a {
+  display: block;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+.element-quick h2 {
+  padding-bottom: 10px;
+}
+
+.element-newletter form {
+  border: 2px solid #ccc;
+  display: inline-block;
+  padding: 4px;
+  margin-top: 20px;
+}
+
+.element-newletter input {
+  border: none;
+  background: #252525;
+  color: aliceblue;
+}
+
+.element-newletter h2 {
+  padding-bottom: 20px;
+}
+
+.element-newletter form > button {
+  background: #bb4339;
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.copy-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
